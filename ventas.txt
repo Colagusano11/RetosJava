@@ -1,0 +1,6 @@
+Nombre: Tomate.
+Cantidad: 34.
+Precio: 0.23€
+Nombre: Lechuga.
+Cantidad: 45.
+Precio: 0.32€

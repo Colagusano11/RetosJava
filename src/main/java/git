@@ -1,8 +1,17 @@
 public class Git{
 
+public static void agregarContenido(File file,String contenido){
+try(FileWritter fw = new FileWritter(archivo)){
+
+}catch()
+
+}
+
+
 public static void main ( String [] args){
 
-
+File file = new File();
+String cont = "Alvaro\nMartinez\n"
 
 
 

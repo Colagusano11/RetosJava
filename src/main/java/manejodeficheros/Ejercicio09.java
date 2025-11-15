@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Ejercicio09 {
 
     /*
-     * IMPORTANTE: Sólo debes subir el fichero de código como parte del ejercicio.
+     * IMPORTANTE: Solo debes subir el fichero de código como parte del ejercicio.
      *
      * EJERCICIO:
      * Desarrolla un programa capaz de crear un archivo que se llame como
@@ -66,11 +66,6 @@ public class Ejercicio09 {
         eliminarArchivo(archivo);
         System.out.println();
         leerArchivo(archivo);
-
-
-
-
-
 
         /*   * DIFICULTAD EXTRA (opcional):
          * Desarrolla un programa de gestión de ventas que almacena sus datos en un
@@ -149,9 +144,7 @@ public class Ejercicio09 {
         } catch (IOException e) {
             System.out.println("Error al agregar el archivo " + e.getMessage());
         }
-
     }
-
     private static void consultarProductos() {
 
         try (BufferedReader rw = new BufferedReader(new FileReader(USUARIO_VENTAS))) {

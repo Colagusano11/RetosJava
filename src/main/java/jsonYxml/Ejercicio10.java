@@ -127,7 +127,6 @@ public class Ejercicio10 {
             }
             rootElement.appendChild(lenguajes);
 
-
             //Escribir el archivo
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();

@@ -82,6 +82,8 @@ public class Ejercicio09 {
         Scanner sc = new Scanner(System.in);
         int option;
 
+
+
         do {
             System.out.println("\n=== GESTOR DE VENTAS ===");
             System.out.println("1. Añadir producto");

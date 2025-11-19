@@ -98,17 +98,13 @@ public class Ejercicio10 {
             DocumentBuilder builder = factory.newDocumentBuilder();
             //Documento
             Document documento = builder.newDocument();
-
             //<Persona>
             Element rootElement = documento.createElement("personas");
             documento.appendChild(rootElement);
-
-
             //Nombre
             Element name = documento.createElement("nombre");
             name.appendChild(documento.createTextNode(p.name));
             rootElement.appendChild(name);
-
             //Edad
             Element edad = documento.createElement("edad");
             edad.appendChild(documento.createTextNode(String.valueOf(p.edad)));
@@ -117,7 +113,6 @@ public class Ejercicio10 {
             Element fecha = documento.createElement("fechaNacimiento");
             fecha.appendChild(documento.createTextNode(p.fechaNac));
             rootElement.appendChild(fecha);
-
             //Lenguajes
             Element lenguajes = documento.createElement("lenguajes");
             for (String lang : p.lenguajes) {
@@ -126,23 +121,16 @@ public class Ejercicio10 {
                 lenguajes.appendChild(langElem);
             }
             rootElement.appendChild(lenguajes);
-
             //Escribir el archivo
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
-
             //Lineas genericas para ver mejor el archivo
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
-
-
             //Una vez que tenemos todas las etiquetas con los valores, creamos el archivo.
-
             DOMSource source = new DOMSource(documento);
             StreamResult result = new StreamResult(new File(ruta));
             transformer.transform(source, result);
-
-
             System.out.println("El archivo: " + ruta + " ha sido creado");
 
 

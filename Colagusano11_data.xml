@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<personas>
+  <nombre>Julio</nombre>
+  <edad>35</edad>
+  <fechaNacimiento>12-12-1998</fechaNacimiento>
+  <lenguajes>
+    <lenguaje>Java</lenguaje>
+    <lenguaje>Django</lenguaje>
+    <lenguaje>Angular</lenguaje>
+  </lenguajes>
+</personas>

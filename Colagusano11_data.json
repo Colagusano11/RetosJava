@@ -1,0 +1,9 @@
+{
+   "nombre": "Julio",
+   "edad": "35",
+   "fechaNacimiento": "12-12-1998",
+   "lenguajes": [
+      "Java",
+      "Django",
+      "Angular"  ]
+}

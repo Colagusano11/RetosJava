@@ -17,3 +17,30 @@ El objetivo es:
 - Proyectos prácticos y pequeños algoritmos de lógica y simulación.
 - Ejemplos de test unitarios con JUnit para validar el funcionamiento del código.
 - Documentación y comentarios para entender el razonamiento y la solución de cada ejercicio o proyecto.
+
+##¿Como usar este repositorio?
+
+1. **Clona el proyecto desde GitHub:**
+
+https://github.com/Colagusano11/RetosJava.git
+
+2. **Ábrelo en tu IDE favorito (IntelliJ, Eclipse, VSCode, NetBeans).**
+3. **Explora los diferentes archivos y carpetas** según el tema o nivel que quieras practicar.
+4. **Ejecuta el código y los tests** para ver los resultados y practicar tú mismo.
+
+## Tecnologías y herramientas utilizadas
+
+- Java 8+
+- JUnit 4/5 para testing
+- IDE recomendado (pero compatible con cualquiera)
+- Herramientas y bibliotecas básicas de Java
+
+## Autor
+
+- Colagusano11
+  
+
+---
+
+**¡Todos los aportes, sugerencias y preguntas son bienvenidos!**
+Mi repositorio es abierto y pensado para quien quiera aprender, practicar y mejorar sus habilidades con Java.

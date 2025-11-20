@@ -35,12 +35,12 @@ public class Ejercicio11 {
 
     }
 
-    public static HashMap<String, Object> diccionario(){
-       HashMap<String, Object> diccionario = new HashMap<String, Object>();
-       diccionario.put("name","Alvaro");
-        diccionario.put("age","34");
-        diccionario.put("brith_date","17-12-1990");
-        diccionario.put("programming_lenguajes",Arrays.asList("Java","Phyton","C++"));
+    public static HashMap<String, Object> diccionario() {
+        HashMap<String, Object> diccionario = new HashMap<String, Object>();
+        diccionario.put("name", "Alvaro");
+        diccionario.put("age", "34");
+        diccionario.put("brith_date", "17-12-1990");
+        diccionario.put("programming_lenguajes", Arrays.asList("Java", "Phyton", "C++"));
 
         return diccionario;
     }
@@ -51,27 +51,26 @@ public class Ejercicio11 {
     }
 
     @Test
-        public  void sumarTest() {
-            assertEquals(4, Ejercicio11.sumar(2, 2));
-            assertEquals(10, Ejercicio11.sumar(5, 5));
-            assertEquals(5, Ejercicio11.sumar(3, 2));
-            assertEquals(7, Ejercicio11.sumar(4, 3));
-
-
-        }
-
-    @Test
-        public void camposVacios(){
-
-        assertFalse(diccionario().isEmpty());
-        assertEquals("Alvaro",Ejercicio11.diccionario().get("name"));
-        assertEquals("34",Ejercicio11.diccionario().get("age"));
-        assertEquals("17-12-1990",Ejercicio11.diccionario().get("brith_date"));
-        assertEquals(Arrays.asList("Java","Phyton","C++"),Ejercicio11.diccionario().get("programming_lenguajes"));
+    public void sumarTest() {
+        assertEquals(4, Ejercicio11.sumar(2, 2));
+        assertEquals(10, Ejercicio11.sumar(5, 5));
+        assertEquals(5, Ejercicio11.sumar(3, 2));
+        assertEquals(7, Ejercicio11.sumar(4, 3));
 
 
     }
 
+    @Test
+    public void camposVacios() {
+
+        assertFalse(diccionario().isEmpty());
+        assertEquals("Alvaro", Ejercicio11.diccionario().get("name"));
+        assertEquals("34", Ejercicio11.diccionario().get("age"));
+        assertEquals("17-12-1990", Ejercicio11.diccionario().get("brith_date"));
+        assertEquals(Arrays.asList("Java", "Phyton", "C++"), Ejercicio11.diccionario().get("programming_lenguajes"));
+
+
+    }
 
 
 }
